@@ -31,10 +31,13 @@ Este script automatiza la instalación y configuración de un sistema Debian, in
    ```bash
    chmod +x install.sh
 
-Ejecuta el script con permisos de superusuario:
+    Ejecuta el script con permisos de superusuario:
 
-```bash
-   sudo ./install.sh
+bash
+
+    sudo ./install.sh
+
+    Sigue las instrucciones en pantalla.
 
 Notas
 
@@ -44,7 +47,7 @@ Notas
 Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras errores o tienes sugerencias, no dudes en abrir un issue o enviar un pull request.
-
+Licencia
 
 ### Instrucciones para el README
 
@@ -53,3 +56,66 @@ Las contribuciones son bienvenidas. Si encuentras errores o tienes sugerencias, 
 3. **Revisar**: Puedes ajustar cualquier sección según tus preferencias o agregar más detalles que consideres necesarios.
 
 Si necesitas más ayuda o ajustes, ¡hazmelo saber!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Debian Installation and Configuration Script
+
+This script automates the installation and configuration of a Debian system, including the installation of packages, drivers, and the configuration of the Budgie desktop environment.
+
+## Requirements
+
+- A Debian-based system (preferably Debian Bookworm).
+- Internet access.
+- Superuser permissions (sudo).
+
+## Features
+
+- Updates and cleans the system.
+- Installs the Budgie desktop environment and related packages.
+- Configures Debian and multimedia repositories.
+- Installs fonts, themes, and icons.
+- Configures web browsers (Firefox, LibreWolf, Chromium, Tor Browser, Brave).
+- Installs and configures drivers for laptops and ASUS devices.
+- Configures hardware acceleration for VLC and MPV.
+- Installs additional utilities such as LibreOffice, MKVToolNix, Stremio, SCRCPY, and Bottom.
+- Configures LightDM and adds the current user to the sudo group.
+- Modifies GRUB and NetworkManager configurations.
+- Offers the option to reboot the system upon completion.
+
+## Usage
+
+1. Clone this repository or download the script.
+2. Open a terminal and navigate to the directory where the script is located.
+3. Make the script executable:
+
+   ```bash
+   chmod +x install.sh
+
+    Run the script with superuser permissions:
+
+bash
+
+    sudo ./install.sh
+
+    Follow the on-screen instructions.
+
+Notes
+
+    Be sure to review the script and customize it according to your needs before running it.
+    This script is designed to be used on a clean installation of Debian. It may not work correctly on systems with custom configurations.
+
+Contributions
+
+Contributions are welcome. If you find errors or have suggestions, feel free to open an issue or submit a pull request.
+License
+
+Code
+
+### Instructions for the README
+
+1. **File Name**: Save the content above in a file named `README.md`.
+2. **Customization**: Make sure to replace `install.sh` with the actual name of your script.
+3. **Review**: You can adjust any section according to your preferences or add more details as needed.
+
+If you need further assistance or adjustments, just let me know!
