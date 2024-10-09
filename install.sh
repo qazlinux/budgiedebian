@@ -152,7 +152,7 @@ sudo apt-get install -y thunar thunar-archive-plugin thunar-volman xarchiver
 # ----------------------------------------
 
 sudo apt-get install -y evince pdfarranger
-sudo apt-get install -y metadata-cleaner keepassxc clamtk
+sudo apt-get install -y metadata-cleaner keepassxc onionshare clamtk
 
 # ----------------------------------------
 # IMAGE EDITING SOFTWARE
