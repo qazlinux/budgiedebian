@@ -31,9 +31,13 @@ Este script automatiza la instalación y configuración de un sistema Debian, in
    ```bash
    chmod +x install.sh
 
-Ejecuta el script con permisos de superusuario:
 
-sudo ./install.sh
+
+    Ejecuta el script con permisos de superusuario:
+
+bash
+
+sudo ./nombre_del_script.sh
 
 Notas
 
