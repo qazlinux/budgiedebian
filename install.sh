@@ -359,21 +359,6 @@ else
     echo "This is not a laptop. Skipping battery driver installation."
 fi
 
-# ASUS NUMPAD DRIVER
-sudo apt-get install -y libevdev2 python3-libevdev i2c-tools git
-sudo modprobe i2c-dev
-sudo i2cdetect -l
-cd /tmp
-git clone https://github.com/mohamed-badaoui/asus-touchpad-numpad-driver.git
-cd asus-touchpad-numpad-driver
-chmod +x install.sh
-sudo ./install.sh
-
-sudo sed -i 's|^#ExecStartPre=/bin/sleep 2|ExecStartPre=/bin/sleep 2|' /etc/systemd/system/asus_touchpad_numpad.service
-
-cd ..
-rm -rf asus-touchpad-numpad-driver
-
 # ----------------------------------------
 # ENABLE HARDWARE ACCELERATION
 # ----------------------------------------
